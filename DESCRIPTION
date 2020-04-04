@@ -1,0 +1,11 @@
+Package: usualsupport
+Type: Package
+Title: Usual Support
+Version: 0.1.0
+Author: Miguel Menéndez
+Maintainer: Miguel Menéndez <miguelmo@gmail.com>
+Description: Usual formulas in scientific support, as sample size estimates and Sample Size-measurement error graph
+License: GPL-3
+Imports: stats, graphics
+Encoding: UTF-8
+LazyData: true
