@@ -33,6 +33,7 @@ A list containing:
   \item{n}{numeric value with the sample size estimated for Measurement Error choosen. This value, rounded, is the only printed output}
   \item{Error}{numeric value of Measurement Error as it was set with 'E' argument}
   \item{alfa}{numeric value of alfa error as it was set with 'alfa' argument}
+  \item{sigma}{numeric value of standard deviation as it was set with 'sigma' argument}
   \item{Evect}{vector of numeric values, with different alternative values of Measurement Error}
   \item{nvector}{vector of numeric values, with different alternative values of sample size estimated for the Evect values}
 
