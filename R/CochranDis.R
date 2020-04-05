@@ -13,7 +13,7 @@ CochranDis <- function(alfa = 0.05, p, E, N = Inf, correct = FALSE){
     }
   }
 
-  value <- list("n" = n, "Error" = E, "alfa" = alfa,  "Evect" = Evect, "nvector" = nvect)
+  value <- list("n" = n, "Error" = E, "alfa" = alfa,  "p" = p, "Evect" = Evect, "nvector" = nvect)
   print(round(value$n, 0))
   return(invisible(value))
 }
