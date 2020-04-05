@@ -13,7 +13,7 @@ plotErrorSample <- function(x, point = TRUE, printlegend = TRUE, ...){
                                     paste("p/q =", x$p, "/", 1-x$p)
                                   }else{
                                     if(any(names(x) == "sigma")){
-                                      paste("σ =", x$sigma)
+                                      paste("sigma =", x$sigma)
                                     }
                                   }
                        ),
