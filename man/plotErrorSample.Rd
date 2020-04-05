@@ -18,8 +18,12 @@ plotErrorSample(x, point = TRUE, ...)
 
   x$nvect, a vector of estimated sample sizes for each value of x$Evect
 }
-  \item{point}{logical, if set to TRUE a point will be marked at x$Error, x$n, which is the sample size estimated for this Error value}
-  \item{...}{other arguments passed from plot(), like xlim(), ylim(), etc.}
+  \item{point}{logical, if set to TRUE a point will be marked at x$Error, x$n, which is the sample size estimated for this Error value
+}
+  \item{printlegend}{logical, if set to TRUE a legend will be print with values used to compute sample size: alfa, and sigma (if a continuous variable) or p/q (if a discrete one). If no sigma nor p/q could be found, a warning will be shown
+}
+  \item{...}{other arguments passed from plot(), like xlim(), ylim(), etc.
+}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
