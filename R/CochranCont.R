@@ -13,7 +13,7 @@ CochranCont <- function(alfa = 0.05, sigma, E, N = Inf, correct = FALSE){
     }
   }
 
-  value <- list("n" = n, "Error" = E, "alfa" = alfa,  "Evect" = Evect, "nvector" = nvect)
+  value <- list("n" = n, "Error" = E, "alfa" = alfa, "sigma" = sigma,  "Evect" = Evect, "nvector" = nvect)
   print(round(value$n, 1))
   return(invisible(value))
 }
